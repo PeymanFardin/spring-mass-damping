@@ -61,6 +61,18 @@ Observations from the simulation:
 
 So the two damping models cross over: quadratic damping removes energy faster at high speeds, and linear damping removes it faster at low speeds.
 
+### Position
+![Position vs time](figures/Position.png)
+
+### Velocity
+![Velocity vs time](figures/Velocity.png)
+
+### Total energy
+![Total energy vs time](figures/Total_energy.png)
+
+### Phase portrait
+![Phase portrait](figures/Phase_portrait.png)
+
 ## Limitations
 - The values of $c_{lin}$ and $c_{quad}$ are chosen arbitrarily, and they have different units. Therefore the comparison between the linear and quadratic cases is only valid for these specific values. With other coefficients, the crossover point would move.
 - Semi-implicit Euler is a first-order method. The results were not compared with an analytical solution or a higher-order method in this project.

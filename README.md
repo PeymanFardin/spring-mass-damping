@@ -61,17 +61,16 @@ Observations from the simulation:
 
 So the two damping models cross over: quadratic damping removes energy faster at high speeds, and linear damping removes it faster at low speeds.
 
-### Position
-![Position vs time](figures/Position.png)
-
-### Velocity
-![Velocity vs time](figures/Velocity.png)
-
-### Total energy
-![Total energy vs time](figures/Total_energy.png)
-
-### Phase portrait
-![Phase portrait](figures/Phase_portrait.png)
+<table>
+  <tr>
+    <td align="center"><b>Position</b><br><img src="figures/Position.png" width="400"></td>
+    <td align="center"><b>Velocity</b><br><img src="figures/Velocity.png" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Total energy</b><br><img src="figures/Total_energy.png" width="400"></td>
+    <td align="center"><b>Phase portrait</b><br><img src="figures/Phase_portrait.png" width="400"></td>
+  </tr>
+</table>
 
 ## Limitations
 - The values of $c_{lin}$ and $c_{quad}$ are chosen arbitrarily, and they have different units. Therefore the comparison between the linear and quadratic cases is only valid for these specific values. With other coefficients, the crossover point would move.
